@@ -1,0 +1,43 @@
+.work-section {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+div {
+  background-color: black;
+}
+
+h2 {
+  font-size: 1rem;
+  background-color: whitesmoke;
+}
+
+#ecework {
+  width: 15rem;
+  height: 15rem;
+  margin: 2rem;
+}
+
+#elfiework {
+  width: 15rem;
+  height: 15rem;
+  margin: 2rem;
+}
+
+#estinework {
+  width: 15rem;
+  height: 15rem;
+  margin: 2rem;
+}
+
+#bunuelwork {
+  width: 15rem;
+  height: 15rem;
+  margin: 2rem;
+}

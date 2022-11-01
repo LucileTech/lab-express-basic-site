@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300&display=swap");
+
+* {
+  background-color: slategray;
+  padding: 0;
+  margin: 0;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+
+#index {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+h1 {
+  color: papayawhip;
+}
+
+/* unvisited link */
+a:link {
+  color: #b5b9bb;
+  transition: O.5s;
+}
+
+/* visited link */
+a:visited {
+  color: #b5b9bb;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: #b5b9bb;
+}
